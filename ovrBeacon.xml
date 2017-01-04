@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/christopherarmenio/Documents/git/projects/ovrEngineered/ovrBeacon-elec/ovrBeacon.sch</source>
-    <date>Friday, July 01, 2016 'PMt' 11:43:35 PM</date>
-    <tool>Eeschema 4.0.2-stable</tool>
+    <source>/Users/christopherarmenio/Development/git/projects/ovrEngineered/ovrBeacon-elec/ovrBeacon.sch</source>
+    <date>Sunday, January 01, 2017 'PMt' 05:30:03 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>ovrBeacon</title>
+        <company>ovrEngineered, LLC</company>
+        <rev>v0.1</rev>
+        <date>2016-06-19</date>
         <source>ovrBeacon.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,52 +19,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C3">
-      <value>C_0.47uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A474KA61D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1539-1-ND</field>
-        <field name="Comp. Value">0.47uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.47uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57749044</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>C_0.47uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A474KA61D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1539-1-ND</field>
-        <field name="Comp. Value">0.47uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.47uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577490D4</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>C_0.47uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A474KA61D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1539-1-ND</field>
-        <field name="Comp. Value">0.47uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.47uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5774912B</tstamp>
-    </comp>
-    <comp ref="U2">
+    <comp ref="U1">
       <value>BLUEGIGA_BLE113</value>
       <footprint>ovrEngineered:BLE113</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE113.pdf</datasheet>
@@ -78,462 +33,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57749FA6</tstamp>
     </comp>
-    <comp ref="U3">
-      <value>TI_TPS62730</value>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tps62730.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Man. Part Num.">TPS62730</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">296-39458-1-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="TI_TPS62730"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5774B8F0</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>C_2.2uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A225ME34D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1546-1-ND</field>
-        <field name="Comp. Value">2.2uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_2.2uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5774C0F3</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>C_2.2uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A225ME34D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1546-1-ND</field>
-        <field name="Comp. Value">2.2uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_2.2uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5774C300</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>I_2.2uH_20%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Man. Part Num.">MLZ1608A2R2M</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">445-3164-1-ND</field>
-        <field name="Comp. Value">2.2uH</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="I_2.2uH_20%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5774CA62</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>R_10K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
-        <field name="Comp. Value">10K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5774CABB</tstamp>
-    </comp>
     <comp ref="J1">
-      <value>USB_MICROB_RA</value>
-      <footprint>ovrEngineered:USB_MICROB_RA</footprint>
-      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">FCI</field>
-        <field name="Man. Part Num.">10118193-0001LF</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">609-4616-1-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="USB_MICROB_RA"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5776E61E</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>CONN_100MIL_2</value>
-      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Man. Part Num.">68001-402HLF</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">609-3507-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="CONN_100MIL_2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5776F0B7</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>MICROCHIP_MCP73831</value>
-      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en025112</datasheet>
-      <fields>
-        <field name="Manufacturer">Microchip</field>
-        <field name="Man. Part Num.">MCP73831</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">MCP73831T-2ATI/OTCT-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="MICROCHIP_MCP73831"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5776FBDD</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>R_10K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
-        <field name="Comp. Value">10K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57770360</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>R_10K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
-        <field name="Comp. Value">10K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577703D2</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>R_2K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW06032K00FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-2.00KHCT-ND</field>
-        <field name="Comp. Value">2K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_2K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57770CB5</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>R_5.1K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW06035K10FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-5.10KHCT-ND</field>
-        <field name="Comp. Value">5.1K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_5.1K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57771CF5</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>R_5.1K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW06035K10FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-5.10KHCT-ND</field>
-        <field name="Comp. Value">5.1K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_5.1K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57771D71</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>TOSHIBA_TCS40DLR</value>
-      <datasheet>http://toshiba.semicon-storage.com/info/docget.jsp?did=30105&amp;prodName=TCS40DLR</datasheet>
-      <fields>
-        <field name="Manufacturer">Toshiba</field>
-        <field name="Man. Part Num.">TCS40DLR</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">TCS40DLRLFCT-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="TOSHIBA_TCS40DLR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577758F9</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>C_0.47uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A474KA61D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1539-1-ND</field>
-        <field name="Comp. Value">0.47uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.47uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577762A4</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>R_10K_1%_0603</value>
-      <footprint>ovrEngineered:R_0603</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
-        <field name="Comp. Value">10K</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57776979</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57777958</tstamp>
-    </comp>
-    <comp ref="U6">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777853D</tstamp>
-    </comp>
-    <comp ref="U9">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577785A3</tstamp>
-    </comp>
-    <comp ref="U11">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57778607</tstamp>
-    </comp>
-    <comp ref="U5">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777866F</tstamp>
-    </comp>
-    <comp ref="U10">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577786D9</tstamp>
-    </comp>
-    <comp ref="U7">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57778749</tstamp>
-    </comp>
-    <comp ref="U12">
-      <value>WORLDSEMI_WS2812</value>
-      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="WORLDSEMI_WS2812"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577787BA</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777A6B0</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777A92A</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777A99E</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777AA15</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777AA8F</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777AB0C</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777AB8C</tstamp>
-    </comp>
-    <comp ref="C14">
-      <value>C_0.1uF_10v_0603</value>
-      <footprint>ovrEngineered:C_0603</footprint>
-      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1532-1-ND</field>
-        <field name="Comp. Value">0.1uF</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777AC0F</tstamp>
-    </comp>
-    <comp ref="J2">
       <value>CONN_DBG_PDI</value>
       <footprint>ovrEngineered:TC2030-IDC</footprint>
       <datasheet>http://www.tag-connect.com/Materials/TC2030-IDC.pdf</datasheet>
@@ -547,7 +47,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5777D5B5</tstamp>
     </comp>
-    <comp ref="R2">
+    <comp ref="R1">
       <value>R_10K_1%_0603</value>
       <footprint>ovrEngineered:R_0603</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -562,7 +62,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>577745D9</tstamp>
     </comp>
-    <comp ref="R3">
+    <comp ref="R2">
       <value>R_0_0603</value>
       <footprint>ovrEngineered:R_0603</footprint>
       <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
@@ -577,6 +77,456 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57774F9E</tstamp>
     </comp>
+    <comp ref="C1">
+      <value>C_0.15uF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://www.tdk.com/pdf/TDKMLCCCapRange.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Man. Part Num.">C1608X7R1E154K080AA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">445-5190-1-ND</field>
+        <field name="Comp. Value">0.15uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.15uF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58638F25</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_2200pF_50v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H222KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71H222KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">	490-1500-1-ND</field>
+        <field name="Comp. Value">2200pF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_2200pF_50v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58638FBE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_10000pF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71E103KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1520-1-ND</field>
+        <field name="Comp. Value">10000pF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_10000pF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863A471</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_10000pF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71E103KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1520-1-ND</field>
+        <field name="Comp. Value">10000pF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_10000pF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863A4EA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_0.47uF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://www.tdk.com/pdf/TDKMLCCCapRange.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Man. Part Num.">C1608X5R1E474K080AC</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">445-5144-1-ND</field>
+        <field name="Comp. Value">0.47uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.47uF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863ADB2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_0.47uF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://www.tdk.com/pdf/TDKMLCCCapRange.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Man. Part Num.">C1608X5R1E474K080AC</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">445-5144-1-ND</field>
+        <field name="Comp. Value">0.47uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.47uF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863AE33</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_0.022uF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C223KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71E223KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-9761-1-ND</field>
+        <field name="Comp. Value">0.022uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.022uF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863B71A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_0.022uF_25v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C223KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71E223KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-9761-1-ND</field>
+        <field name="Comp. Value">0.022uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.022uF_25v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863B79E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_22uF_25v_0805</value>
+      <footprint>ovrEngineered:C_0805</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61E226ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRT21BR61E226ME13L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-12389-1-ND</field>
+        <field name="Comp. Value">22uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_22uF_25v_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863C0CE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_42.2K_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-0742K2L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">311-42.2KHRCT-ND</field>
+        <field name="Comp. Value">42.2K</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_42.2K_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863CA0E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_300_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-07300RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">311-300HRCT-ND</field>
+        <field name="Comp. Value">300</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_300_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863D381</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_300_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-07300RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">311-300HRCT-ND</field>
+        <field name="Comp. Value">300</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_300_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863D416</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_953_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-07953RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">311-953HRCT-ND</field>
+        <field name="Comp. Value">953</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_953_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5863E649</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_10K_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
+        <field name="Comp. Value">10K</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58656DC2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_10K_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
+        <field name="Comp. Value">10K</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5865CC44</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C_1uF_10v_0805</value>
+      <footprint>ovrEngineered:C_0805</footprint>
+      <datasheet>http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM21BR71A105KA01L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1695-1-ND</field>
+        <field name="Comp. Value">1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_1uF_10v_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5865E788</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C_0.1uF_10v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1532-1-ND</field>
+        <field name="Comp. Value">0.1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5865E832</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C_1uF_10v_0805</value>
+      <footprint>ovrEngineered:C_0805</footprint>
+      <datasheet>http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM21BR71A105KA01L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1695-1-ND</field>
+        <field name="Comp. Value">1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_1uF_10v_0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5865F259</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C_0.1uF_10v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1532-1-ND</field>
+        <field name="Comp. Value">0.1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5865F264</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_120_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_120_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586947CA</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_120_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_120_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58694A11</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_120_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_120_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58694BD2</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_120_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_120_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58694C5A</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_120_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_120_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58694CEB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_120_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_120_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58694D79</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C_0.1uF_10v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1532-1-ND</field>
+        <field name="Comp. Value">0.1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58695F82</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_10K_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW060310K0FKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-10.0KHCT-ND</field>
+        <field name="Comp. Value">10K</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586981BA</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C_0.1uF_10v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1532-1-ND</field>
+        <field name="Comp. Value">0.1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58699782</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C_0.1uF_10v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1532-1-ND</field>
+        <field name="Comp. Value">0.1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5869DD20</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C_0.1uF_10v_0603</value>
+      <footprint>ovrEngineered:C_0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71C104KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1532-1-ND</field>
+        <field name="Comp. Value">0.1uF</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="C_0.1uF_10v_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A1673</tstamp>
+    </comp>
     <comp ref="R9">
       <value>R_10K_1%_0603</value>
       <footprint>ovrEngineered:R_0603</footprint>
@@ -590,20 +540,7 @@
       </fields>
       <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>57777188</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>CONN_100MIL_2</value>
-      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Man. Part Num.">68001-402HLF</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">609-3507-ND</field>
-      </fields>
-      <libsource lib="ovrEngineered" part="CONN_100MIL_2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>577774F1</tstamp>
+      <tstamp>586A83CE</tstamp>
     </comp>
     <comp ref="R10">
       <value>R_10K_1%_0603</value>
@@ -618,10 +555,214 @@
       </fields>
       <libsource lib="ovrEngineered" part="R_10K_1%_0603"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5777A1F2</tstamp>
+      <tstamp>586A8485</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_12K_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW060312K0FKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-12.0KHCT-ND</field>
+        <field name="Comp. Value">12K</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_12K_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586AB62D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_5.1K_1%_0603</value>
+      <footprint>ovrEngineered:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW06035K10FKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-5.10KHCT-ND</field>
+        <field name="Comp. Value">5.1K</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="R_5.1K_1%_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586AB714</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>CREE_CLV1A_FKB</value>
+      <footprint>ovrEngineered:CREE_CLV1A_FKB</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Man. Part Num.">CLV1A-FKB-CK1N1G1BB7R4S3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">CLV1A-FKB-CK1N1G1BB7R4S3CT-ND</field>
+        <field name="Comp. Value">RGB</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="CREE_CLV1A_FKB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B06C3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>CREE_CLV1A_FKB</value>
+      <footprint>ovrEngineered:CREE_CLV1A_FKB</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Man. Part Num.">CLV1A-FKB-CK1N1G1BB7R4S3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">CLV1A-FKB-CK1N1G1BB7R4S3CT-ND</field>
+        <field name="Comp. Value">RGB</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="CREE_CLV1A_FKB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B0806</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_2MM_2</value>
+      <footprint>ovrEngineered:SIP_2MM_2</footprint>
+      <datasheet>http://multimedia.3m.com/mws/media/438474O/3mtm-pin-strip-header-ts2156.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">3M</field>
+        <field name="Man. Part Num.">951102-8622-AR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">3M9321-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="CONN_2MM_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B1F53</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>QIRX_10.7uH</value>
+      <footprint>ovrEngineered:SIP_2MM_2</footprint>
+      <datasheet>http://www.vishay.com/docs/34338/iwas3827.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Man. Part Num.">IWAS3827ECEB100J50</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-1695-ND</field>
+        <field name="Comp. Value">10.7uH</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="QIRX_10.7uH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B3346</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TI_BQ51050</value>
+      <footprint>ovrEngineered:TI_BQ51050</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq51050b.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Man. Part Num.">BQ51050BRHLR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">296-35066-1-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="TI_BQ51050"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B4D9C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TOREX_XC6210</value>
+      <footprint>ovrEngineered:SOT-25-5</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6210/XC6210.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Torex Semiconductor</field>
+        <field name="Man. Part Num.">XC6210B332MR-G</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">893-1075-1-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="TOREX_XC6210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B6B82</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>NXP_PCA9624</value>
+      <footprint>ovrEngineered:NXP_PCA9624</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9624.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="Man. Part Num.">PCA9624BS,118</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">568-5304-1-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="NXP_PCA9624"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B8436</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LITEON_LTR-329ALS</value>
+      <footprint>ovrEngineered:LITEON_LTR-329ALS</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS86-2014-0006/S_110_LTR-329ALS-01_DS_V1.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Man. Part Num.">LTR-329ALS-01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">160-2160-1-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="LITEON_LTR-329ALS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586B9C3C</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>SILICONLABS_SI7050</value>
+      <footprint>ovrEngineered:SILICONLABS_SI7050</footprint>
+      <datasheet>http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7050-1-3-4-5-A20.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Silicon Labs</field>
+        <field name="Man. Part Num.">SI7050-A20-IM</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">336-3118-5-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="SILICONLABS_SI7050"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586BBC5F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ANALOGDEVS_ADXL345</value>
+      <footprint>ovrEngineered:ANALOGDEVS_ADXL345</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Man. Part Num.">ADXL345BCCZ-RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">ADXL345BCCZ-RLCT-ND</field>
+      </fields>
+      <libsource lib="ovrEngineered" part="ANALOGDEVS_ADXL345"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586BD1D9</tstamp>
     </comp>
   </components>
   <libparts>
+    <libpart lib="ovrEngineered" part="ANALOGDEVS_ADXL345">
+      <description>ACCEL 2-16G I2C/SPI 14LGA </description>
+      <footprints>
+        <fp>ANALOGDEVS_ADXL345</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ANALOGDEVS_ADXL345</field>
+        <field name="Datasheet">http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Man. Part Num.">ADXL345BCCZ-RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">ADXL345BCCZ-RLCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RESERVED" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="~CS" type="input"/>
+        <pin num="8" name="INT1" type="output"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="RESERVED" type="NotConnected"/>
+        <pin num="12" name="SDO/ALTADDR" type="BiDi"/>
+        <pin num="13" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="14" name="SCL/SCK" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="ovrEngineered" part="BLUEGIGA_BLE113">
       <footprints>
         <fp>BLE113</fp>
@@ -674,15 +815,18 @@
         <pin num="36" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="CONN_100MIL_2">
+    <libpart lib="ovrEngineered" part="CONN_2MM_2">
+      <footprints>
+        <fp>SIP_2MM_2</fp>
+      </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">CONN_100MIL_2</field>
-        <field name="Datasheet">http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf</field>
-        <field name="Manufacturer">Amphenol</field>
-        <field name="Man. Part Num.">68001-402HLF</field>
+        <field name="Value">CONN_2MM_2</field>
+        <field name="Datasheet">http://multimedia.3m.com/mws/media/438474O/3mtm-pin-strip-header-ts2156.pdf</field>
+        <field name="Manufacturer">3M</field>
+        <field name="Man. Part Num.">951102-8622-AR</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">609-3507-ND</field>
+        <field name="Supplier Part Num.">3M9321-ND</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -711,6 +855,66 @@
         <pin num="6" name="GND" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="ovrEngineered" part="CREE_CLV1A_FKB">
+      <description>LED RGB DIFFUSED 4PLCC SMD</description>
+      <footprints>
+        <fp>CREE_CLV1A_FKB</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CREE_CLV1A_FKB</field>
+        <field name="Datasheet">http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf</field>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Man. Part Num.">CLV1A-FKB-CK1N1G1BB7R4S3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">CLV1A-FKB-CK1N1G1BB7R4S3CT-ND</field>
+        <field name="Comp. Value">RGB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CATHODE_RED" type="passive"/>
+        <pin num="2" name="ANODE" type="passive"/>
+        <pin num="3" name="CATHODE_BLUE" type="passive"/>
+        <pin num="4" name="CATHOD_GREEN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="C_0.022uF_25v_0603">
+      <footprints>
+        <fp>C_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.022uF_25v_0603</field>
+        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C223KA01-01.pdf</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71E223KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-9761-1-ND</field>
+        <field name="Comp. Value">0.022uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="C_0.15uF_25v_0603">
+      <footprints>
+        <fp>C_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.15uF_25v_0603</field>
+        <field name="Datasheet">http://www.tdk.com/pdf/TDKMLCCCapRange.pdf</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Man. Part Num.">C1608X7R1E154K080AA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">445-5190-1-ND</field>
+        <field name="Comp. Value">0.15uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="ovrEngineered" part="C_0.1uF_10v_0603">
       <footprints>
         <fp>C_0603</fp>
@@ -730,18 +934,18 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="C_0.47uF_10v_0603">
+    <libpart lib="ovrEngineered" part="C_0.47uF_25v_0603">
       <footprints>
         <fp>C_0603</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_0.47uF_10v_0603</field>
-        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A474KA61D</field>
+        <field name="Value">C_0.47uF_25v_0603</field>
+        <field name="Datasheet">http://www.tdk.com/pdf/TDKMLCCCapRange.pdf</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Man. Part Num.">C1608X5R1E474K080AC</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1539-1-ND</field>
+        <field name="Supplier Part Num.">445-5144-1-ND</field>
         <field name="Comp. Value">0.47uF</field>
       </fields>
       <pins>
@@ -749,60 +953,162 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="C_2.2uF_10v_0603">
+    <libpart lib="ovrEngineered" part="C_10000pF_25v_0603">
       <footprints>
         <fp>C_0603</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_2.2uF_10v_0603</field>
-        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf</field>
+        <field name="Value">C_10000pF_25v_0603</field>
+        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Man. Part Num.">GRM188R61A225ME34D</field>
+        <field name="Man. Part Num.">GRM188R71E103KA01D</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">490-1546-1-ND</field>
-        <field name="Comp. Value">2.2uF</field>
+        <field name="Supplier Part Num.">490-1520-1-ND</field>
+        <field name="Comp. Value">10000pF</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="I_2.2uH_20%_0603">
+    <libpart lib="ovrEngineered" part="C_1uF_10v_0805">
       <footprints>
-        <fp>R_0603</fp>
+        <fp>C_0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1uF_10v_0805</field>
+        <field name="Datasheet">http://psearch.murata.com/capacitor/product/GRM21BR71A106KE51%23.pdf</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM21BR71A105KA01L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-1695-1-ND</field>
+        <field name="Comp. Value">1uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="C_2200pF_50v_0603">
+      <footprints>
+        <fp>C_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_2200pF_50v_0603</field>
+        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H222KA01-01.pdf</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRM188R71H222KA01D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">	490-1500-1-ND</field>
+        <field name="Comp. Value">2200pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="C_22uF_25v_0805">
+      <footprints>
+        <fp>C_0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_22uF_25v_0805</field>
+        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61E226ME13-01.pdf</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Man. Part Num.">GRT21BR61E226ME13L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">490-12389-1-ND</field>
+        <field name="Comp. Value">22uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="LITEON_LTR-329ALS">
+      <description>AMBIENT LIGHT PHOTO SENSOR</description>
+      <footprints>
+        <fp>LITEON_LTR-329ALS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LITEON_LTR-329ALS</field>
+        <field name="Datasheet">http://optoelectronics.liteon.com/upload/download/DS86-2014-0006/S_110_LTR-329ALS-01_DS_V1.pdf</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Man. Part Num.">LTR-329ALS-01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">160-2160-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="NXP_PCA9624">
+      <description>IC LED DRIVER LINEAR DIM</description>
+      <footprints>
+        <fp>NXP_PCA9624</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NXP_PCA9624</field>
+        <field name="Datasheet">http://www.nxp.com/documents/data_sheet/PCA9624.pdf</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Man. Part Num.">PCA9624BS,118</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">568-5304-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A2" type="input"/>
+        <pin num="2" name="A3" type="input"/>
+        <pin num="3" name="A4" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="LED0" type="openCol"/>
+        <pin num="6" name="LED1" type="openCol"/>
+        <pin num="7" name="LED2" type="openCol"/>
+        <pin num="8" name="LED3" type="openCol"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="LED4" type="openCol"/>
+        <pin num="12" name="LED5" type="openCol"/>
+        <pin num="13" name="LED6" type="openCol"/>
+        <pin num="14" name="LED7" type="openCol"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="~OE" type="input"/>
+        <pin num="17" name="A5" type="input"/>
+        <pin num="18" name="A6" type="input"/>
+        <pin num="19" name="SCL" type="BiDi"/>
+        <pin num="20" name="SDA" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="A0" type="input"/>
+        <pin num="24" name="A1" type="input"/>
+        <pin num="25" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="QIRX_10.7uH">
+      <footprints>
+        <fp>SIP_2MM_2</fp>
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">I_2.2uH_20%_0603</field>
-        <field name="Datasheet">https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz1608_en.pdf</field>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Man. Part Num.">MLZ1608A2R2M</field>
+        <field name="Value">QIRX_10.7uH</field>
+        <field name="Datasheet">http://www.vishay.com/docs/34338/iwas3827.pdf</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Man. Part Num.">IWAS3827ECEB100J50</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">445-3164-1-ND</field>
-        <field name="Comp. Value">2.2uH</field>
+        <field name="Supplier Part Num.">541-1695-ND</field>
+        <field name="Comp. Value">10.7uH</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
         <pin num="2" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="ovrEngineered" part="MICROCHIP_MCP73831">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MICROCHIP_MCP73831</field>
-        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en025112</field>
-        <field name="Manufacturer">Microchip</field>
-        <field name="Man. Part Num.">MCP73831</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">MCP73831T-2ATI/OTCT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="STAT" type="output"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="VBATT" type="power_in"/>
-        <pin num="4" name="VCC" type="power_in"/>
-        <pin num="5" name="PROG" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="ovrEngineered" part="R_0_0603">
@@ -843,19 +1149,76 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="R_2K_1%_0603">
+    <libpart lib="ovrEngineered" part="R_120_1%_0603">
       <footprints>
         <fp>R_0603</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_2K_1%_0603</field>
+        <field name="Value">R_120_1%_0603</field>
         <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
         <field name="Manufacturer">Vishay_Dale</field>
-        <field name="Man. Part Num.">CRCW06032K00FKEA</field>
+        <field name="Man. Part Num.">CRCW0603120RFKEA</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">541-2.00KHCT-ND</field>
-        <field name="Comp. Value">2K</field>
+        <field name="Supplier Part Num.">541-120HCT-ND</field>
+        <field name="Comp. Value">120</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="R_12K_1%_0603">
+      <footprints>
+        <fp>R_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_12K_1%_0603</field>
+        <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Manufacturer">Vishay_Dale</field>
+        <field name="Man. Part Num.">CRCW060312K0FKEA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">541-12.0KHCT-ND</field>
+        <field name="Comp. Value">12K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="R_300_1%_0603">
+      <footprints>
+        <fp>R_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_300_1%_0603</field>
+        <field name="Datasheet">http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-07300RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">311-300HRCT-ND</field>
+        <field name="Comp. Value">300</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="R_42.2K_1%_0603">
+      <footprints>
+        <fp>R_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_42.2K_1%_0603</field>
+        <field name="Datasheet">http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-0742K2L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">311-42.2KHRCT-ND</field>
+        <field name="Comp. Value">42.2K</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
@@ -881,338 +1244,439 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="TI_TPS62730">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TI_TPS62730</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62730.pdf</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Man. Part Num.">TPS62730</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">296-39458-1-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="STAT" type="openCol"/>
-        <pin num="2" name="SW" type="power_out"/>
-        <pin num="3" name="VIN" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="ON/BYP" type="input"/>
-        <pin num="6" name="VOUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="ovrEngineered" part="TOSHIBA_TCS40DLR">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TOSHIBA_TCS40DLR</field>
-        <field name="Datasheet">http://toshiba.semicon-storage.com/info/docget.jsp?did=30105&amp;prodName=TCS40DLR</field>
-        <field name="Manufacturer">Toshiba</field>
-        <field name="Man. Part Num.">TCS40DLR</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">TCS40DLRLFCT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="power_in"/>
-        <pin num="2" name="VOUT" type="output"/>
-        <pin num="3" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="ovrEngineered" part="USB_MICROB_RA">
+    <libpart lib="ovrEngineered" part="R_953_1%_0603">
       <footprints>
-        <fp>USB_MICROB_RA</fp>
+        <fp>R_0603</fp>
       </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_MICROB_RA</field>
-        <field name="Datasheet">http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf</field>
-        <field name="Manufacturer">FCI</field>
-        <field name="Man. Part Num.">10118193-0001LF</field>
+        <field name="Reference">R</field>
+        <field name="Value">R_953_1%_0603</field>
+        <field name="Datasheet">http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Man. Part Num.">RC0603FR-07953RL</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">609-4616-1-ND</field>
+        <field name="Supplier Part Num.">311-953HRCT-ND</field>
+        <field name="Comp. Value">953</field>
       </fields>
       <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="BiDi"/>
-        <pin num="3" name="D+" type="BiDi"/>
-        <pin num="4" name="ID" type="power_in"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="SH1" name="SH1" type="passive"/>
-        <pin num="SH2" name="SH2" type="passive"/>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ovrEngineered" part="WORLDSEMI_WS2812">
+    <libpart lib="ovrEngineered" part="SILICONLABS_SI7050">
+      <description>SENSOR TEMPERATURE I2C 6DFN</description>
+      <footprints>
+        <fp>SILICONLABS_SI7050</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">WORLDSEMI_WS2812</field>
-        <field name="Datasheet">http://www.adafruit.com/datasheets/WS2812B.pdf</field>
-        <field name="Manufacturer">World Semi</field>
-        <field name="Man. Part Num.">WS2812</field>
+        <field name="Value">SILICONLABS_SI7050</field>
+        <field name="Datasheet">http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7050-1-3-4-5-A20.pdf</field>
+        <field name="Manufacturer">Silicon Labs</field>
+        <field name="Man. Part Num.">SI7050-A20-IM</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Num.">1528-1104-ND</field>
+        <field name="Supplier Part Num.">336-3118-5-ND</field>
       </fields>
       <pins>
-        <pin num="1" name="VCC" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="DIN" type="input"/>
+        <pin num="1" name="SDA" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="PAD" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="TI_BQ51050">
+      <description>IC WIRELESS PWR RCVR 20QFN</description>
+      <footprints>
+        <fp>TI_BQ51050</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TI_BQ51050</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq51050b.pdf</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Man. Part Num.">BQ51050BRHLR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">296-35066-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="AC1" type="power_in"/>
+        <pin num="3" name="BOOT1" type="passive"/>
+        <pin num="4" name="BATT" type="power_out"/>
+        <pin num="5" name="CLAMP1" type="passive"/>
+        <pin num="6" name="COMM1" type="passive"/>
+        <pin num="7" name="~CHG" type="openCol"/>
+        <pin num="8" name="~ADEN" type="output"/>
+        <pin num="9" name="AD" type="input"/>
+        <pin num="10" name="TERM" type="input"/>
+        <pin num="11" name="EN2" type="input"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="TS/CTRL" type="input"/>
+        <pin num="14" name="FOD" type="input"/>
+        <pin num="15" name="COMM2" type="passive"/>
+        <pin num="16" name="CLAMP2" type="passive"/>
+        <pin num="17" name="BOOT2" type="passive"/>
+        <pin num="18" name="RECT" type="passive"/>
+        <pin num="19" name="AC2" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ovrEngineered" part="TOREX_XC6210">
+      <description>IC REG LDO 3.3V 0.7A SOT25 </description>
+      <footprints>
+        <fp>SOT-25-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TOREX_XC6210</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6210/XC6210.pdf</field>
+        <field name="Manufacturer">Torex Semiconductor</field>
+        <field name="Man. Part Num.">XC6210B332MR-G</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Num.">893-1075-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="ovrEngineered">
-      <uri>/Users/christopherarmenio/Documents/git/projects/ovrEngineered/ovrBeacon-elec/externals/ovrEngineered-libs/ovrEngineered.lib</uri>
+      <uri>/Users/christopherarmenio/Development/git/projects/ovrEngineered/ovrBeacon-elec/externals/ovrEngineered-libs/ovrEngineered.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U6-Pad2)">
-      <node ref="U9" pin="4"/>
-      <node ref="U6" pin="2"/>
+    <net code="1" name="/ACC_INT2">
+      <node ref="U7" pin="9"/>
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="2" name="Net-(U11-Pad4)">
-      <node ref="U11" pin="4"/>
-      <node ref="U9" pin="2"/>
-    </net>
-    <net code="3" name="Net-(U5-Pad2)">
-      <node ref="U5" pin="2"/>
-      <node ref="U7" pin="4"/>
-    </net>
-    <net code="4" name="Net-(U10-Pad4)">
-      <node ref="U7" pin="2"/>
-      <node ref="U10" pin="4"/>
-    </net>
-    <net code="5" name="Net-(U10-Pad2)">
-      <node ref="U12" pin="4"/>
-      <node ref="U10" pin="2"/>
-    </net>
-    <net code="6" name="Net-(U11-Pad2)">
-      <node ref="U11" pin="2"/>
-      <node ref="U5" pin="4"/>
-    </net>
-    <net code="7" name="/P2_1/PROG">
-      <node ref="J2" pin="1"/>
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="8" name="GND">
-      <node ref="U1" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J1" pin="SH2"/>
-      <node ref="J1" pin="SH1"/>
-      <node ref="J1" pin="5"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U8" pin="3"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="C10" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="U9" pin="3"/>
-      <node ref="U6" pin="3"/>
-      <node ref="U4" pin="3"/>
-      <node ref="R11" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U12" pin="3"/>
-      <node ref="U7" pin="3"/>
-      <node ref="U10" pin="3"/>
-      <node ref="U5" pin="3"/>
-      <node ref="U11" pin="3"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U2" pin="18"/>
-      <node ref="U2" pin="36"/>
-      <node ref="U2" pin="25"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="9" name="Net-(R10-Pad1)">
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="10" name="/NEOPIXELS">
-      <node ref="U2" pin="24"/>
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="11" name="/THERM_EXT">
-      <node ref="U2" pin="33"/>
-      <node ref="R9" pin="1"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="12" name="Net-(L1-Pad1)">
-      <node ref="L1" pin="1"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="13" name="/USART_TX">
-      <node ref="U2" pin="29"/>
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="14" name="/USART_RX">
-      <node ref="U2" pin="28"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="15" name="/~RESET">
-      <node ref="R2" pin="2"/>
-      <node ref="J2" pin="6"/>
-      <node ref="U2" pin="34"/>
-    </net>
-    <net code="16" name="/P2_2/PROG">
-      <node ref="U2" pin="9"/>
-      <node ref="J2" pin="5"/>
-    </net>
-    <net code="17" name="/SW_ENUM">
-      <node ref="R11" pin="2"/>
-      <node ref="U8" pin="2"/>
-      <node ref="U2" pin="23"/>
-    </net>
-    <net code="18" name="/DCDC">
-      <node ref="U2" pin="12"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="19" name="VCC">
-      <node ref="R2" pin="1"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="17"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="L1" pin="2"/>
-    </net>
-    <net code="20" name="+BATT">
-      <node ref="U11" pin="1"/>
-      <node ref="U9" pin="1"/>
-      <node ref="U6" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U5" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U8" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="C10" pin="1"/>
-    </net>
-    <net code="21" name="Net-(U4-Pad2)">
-      <node ref="U6" pin="4"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="22" name="Net-(R1-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="23" name="Net-(R5-Pad2)">
+    <net code="2" name="GND">
       <node ref="R5" pin="2"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="24" name="Net-(J1-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="4"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="25" name="/CHARGING">
-      <node ref="R4" pin="2"/>
-      <node ref="U2" pin="22"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="26" name="/CHARGING_STAT">
-      <node ref="U2" pin="21"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="27" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="28" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="29" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="30" name="Net-(U3-Pad1)">
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="31" name="Net-(U2-Pad13)">
-      <node ref="U2" pin="13"/>
-    </net>
-    <net code="32" name="Net-(U2-Pad32)">
-      <node ref="U2" pin="32"/>
-    </net>
-    <net code="33" name="Net-(U2-Pad31)">
-      <node ref="U2" pin="31"/>
-    </net>
-    <net code="34" name="Net-(U2-Pad11)">
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="35" name="Net-(U2-Pad30)">
-      <node ref="U2" pin="30"/>
-    </net>
-    <net code="36" name="Net-(U2-Pad20)">
-      <node ref="U2" pin="20"/>
-    </net>
-    <net code="37" name="Net-(U3-Pad6)">
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="38" name="Net-(U2-Pad19)">
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="39" name="Net-(U2-Pad27)">
-      <node ref="U2" pin="27"/>
-    </net>
-    <net code="40" name="Net-(U2-Pad26)">
-      <node ref="U2" pin="26"/>
-    </net>
-    <net code="41" name="Net-(U2-Pad16)">
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="42" name="Net-(U2-Pad35)">
-      <node ref="U2" pin="35"/>
-    </net>
-    <net code="43" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="44" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="45" name="Net-(U12-Pad2)">
-      <node ref="U12" pin="2"/>
-    </net>
-    <net code="46" name="Net-(R3-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U4" pin="25"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U6" pin="2"/>
       <node ref="R3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U2" pin="21"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="36"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C14" pin="1"/>
     </net>
-    <net code="47" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="48" name="Net-(U12-Pad1)">
-      <node ref="U12" pin="1"/>
-    </net>
-    <net code="49" name="Net-(U7-Pad1)">
+    <net code="3" name="+3V3">
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R10" pin="1"/>
       <node ref="U7" pin="1"/>
     </net>
-    <net code="50" name="Net-(U10-Pad1)">
-      <node ref="U10" pin="1"/>
+    <net code="4" name="/SCL">
+      <node ref="U7" pin="14"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="R9" pin="2"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="6" name="/ACC_INT1">
+      <node ref="U7" pin="8"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="7" name="/~LED_EN">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="8" name="/~CHARGING">
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="21"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="11" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="12" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="13" name="Net-(R18-Pad1)">
+      <node ref="U4" pin="11"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R19-Pad1)">
+      <node ref="U4" pin="12"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R14-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="22" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="23" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="24" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="25" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="27" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="28" name="Net-(C7-Pad2)">
+      <node ref="U2" pin="15"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C8-Pad2)">
+      <node ref="U2" pin="16"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="31" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="32" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="33" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="34" name="Net-(U7-Pad11)">
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="35" name="/VBATT">
+      <node ref="R11" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="36" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="37" name="+BATT">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="38" name="/P2_2/PROG">
+      <node ref="U1" pin="9"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="39" name="/P2_1/PROG">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R6-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="41" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="42" name="Net-(R3-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="43" name="/~RESET">
+      <node ref="U1" pin="34"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="44" name="/USART_TX">
+      <node ref="U1" pin="29"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="58" name="Net-(C1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C1-Pad2)">
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="60" name="Net-(C2-Pad2)">
+      <node ref="U2" pin="19"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="18"/>
     </net>
   </nets>
 </export>
