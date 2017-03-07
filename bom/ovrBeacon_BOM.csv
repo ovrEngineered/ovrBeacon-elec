@@ -1,7 +1,6 @@
 Reference,Value,Footprint,Datasheet,Manufacturer,Man. Part Num.,Supplier,Supplier Part Num.,Comp. Value,Quantity
 U1,BLUEGIGA_BLE113,ovrEngineered:BLE113,http://media.digikey.com/pdf/Data%20Sheets/BlueGiga%20PDFs/BLE113.pdf,BlueGiga,BLE113-A-M256K,Digi-Key,1446-1035-1-ND,,1
 R1 R5 R4 R9 R10,R_10K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060310K0FKEA,Digi-Key,541-10.0KHCT-ND,10K,5
-R2,R_0_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW06030000Z0EA,Digi-Key,541-0.0GCT-ND,0,1
 C1,C_0.15uF_25v_0603,ovrEngineered:C_0603,http://www.tdk.com/pdf/TDKMLCCCapRange.pdf,TDK Corporation,C1608X7R1E154K080AA,Digi-Key,445-5190-1-ND,0.15uF,1
 C2,C_2200pF_50v_0603,ovrEngineered:C_0603,http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H222KA01-01.pdf,Murata,GRM188R71H222KA01D,Digi-Key,"	490-1500-1-ND",2200pF,1
 C6 C5,C_10000pF_25v_0603,ovrEngineered:C_0603,http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf,Murata,GRM188R71E103KA01D,Digi-Key,490-1520-1-ND,10000pF,2
@@ -17,7 +16,6 @@ R14 R15 R16 R17 R18 R19,R_120_1%_0603,ovrEngineered:R_0603,http://www.vishay.com
 R11,R_12K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW060312K0FKEA,Digi-Key,541-12.0KHCT-ND,12K,1
 R12,R_5.1K_1%_0603,ovrEngineered:R_0603,http://www.vishay.com/docs/20035/dcrcwe3.pdf,Vishay_Dale,CRCW06035K10FKEA,Digi-Key,541-5.10KHCT-ND,5.1K,1
 D1 D2,CREE_CLV1A_FKB,ovrEngineered:CREE_CLV1A_FKB,http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf,Cree Inc.,CLV1A-FKB-CK1N1G1BB7R4S3,Digi-Key,CLV1A-FKB-CK1N1G1BB7R4S3CT-ND,RGB,2
-J2,CONN_2MM_2,ovrEngineered:SIP_2MM_2,http://multimedia.3m.com/mws/media/438474O/3mtm-pin-strip-header-ts2156.pdf,3M,951102-8622-AR,Digi-Key,3M9321-ND,,1
 L1,QIRX_10.7uH,ovrEngineered:SIP_2MM_2,http://www.vishay.com/docs/34338/iwas3827.pdf,Vishay Dale,IWAS3827ECEB100J50,Digi-Key,541-1695-ND,10.7uH,1
 U2,TI_BQ51050,ovrEngineered:TI_BQ51050,http://www.ti.com/lit/ds/symlink/bq51050b.pdf,Texas Instruments,BQ51050BRHLR,Digi-Key,296-35066-1-ND,,1
 U3,TOREX_XC6210,ovrEngineered:SOT-25-5,https://www.torexsemi.com/file/xc6210/XC6210.pdf,Torex Semiconductor,XC6210B332MR-G,Digi-Key,893-1075-1-ND,,1
