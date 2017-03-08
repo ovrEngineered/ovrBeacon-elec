@@ -28,9 +28,10 @@ Note: this repository contains the schematics and PCB design. The firmware repos
 | Acceleration range      | -16  | -       | +16    | g     |
 | Acceleration resolution | -    | 4       | -      | mg    |
 | Light sensitivity       | 0.01 | -       | 64,000 | lux   |
-| Battery Capactity***    | -    | 500     | -      | mAh.  |
+| Battery Capacity***     | -    | 500     | -      | mAh.  |
 ** accuracy can be increased with pin-compatible parts 
-*** capacity can be increaded with replacement batteries
+
+*** capacity can be increased with replacement batteries
 
 
 ## Links
